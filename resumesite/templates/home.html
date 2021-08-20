@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daniel-TheProgrammer.</title>
     <link rel="stylesheet" href="{% static 'CSS/style.css'%}">
-    <link rel="icon" href="images/favicon(1).ico">
+    <link rel="icon" href="{% static 'images/favicon(1).ico'%}">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -37,7 +37,7 @@
         <img class="top-clouds" src="{% static 'images/cloud.png'%}" alt="cloud-img">
         <h1 class="title">I'm Daniel TheProgrammer</h1>
         <h2 class="sub-title">A Web Developer & App Developer.</h2>
-        <img class="mountain" src="{% static 'images/Backimg.png'%}" alt="mountain-img">
+        <img class="mountain" src="{% static 'images/Background.png'%}" alt="mountain-img">
     </div>
 
     <!-- END WELCOME SECTION -->
@@ -46,9 +46,9 @@
 
     <div class="middle-site">
         <div id="about" class="profile">
-            <img class="profile-pic" src="{% static 'images/Atul.png'%}" alt="Nji Daniel's Profile Picture.">
+            <img class="profile-pic" src="{% static 'images/DTP-modified.png'%}" alt="Nji Daniel's Profile Picture.">
             <h2>Hello there.</h2>
-            <p class="profile-bio">I am a web developer. </p>
+            <p class="profile-bio">I am a web & App developer. </p>
         </div>
         <hr>
         <!-- Skills -->
@@ -63,7 +63,7 @@
             <div class="skill-row">
                 <img class="skill-img2" src="https://image.freepik.com/free-vector/business-people-working-laptop-development_1262-18907.jpg" alt="">
                 <h3>Python Programmer</h3>
-                <p>I have complete knowledge of core python and I also know Data analysis using Python. I also created so many projects by using Python language, you can check my GitHub profile.</p>
+                <p>Python Lover</p>
             </div>
             <div class="skill-row">
                 <img class="skill-img3" src="https://i.pinimg.com/736x/74/0c/5d/740c5d0a73d85a6494b16b202e02483a.jpg" alt="">
@@ -106,7 +106,7 @@
 
         <div class="projects-grid">
             <a href="https://play.google.com/store/apps/details?id=com.code.from.scratch.withme" target="_blank" class="project project-tile">
-                <img class="project-image" src="https://mir-s3-cdn-cf.behance.net/projects/404/f37a6480404765.Y3JvcCwzMDAxLDIzNDgsMjUyLDA.png" alt="project" />
+                <img class="project-image" src="https://flutter.dev/images/flutter-logo-sharing.png" alt="project" />
                 <p class="project-title">
                     <span class="code">&lt;</span> Code With DTP
                     <span class="code">&#47;&gt;</span>
@@ -122,7 +122,7 @@
             </a>
 
             <a href="https://play.google.com/store/apps/details?id=com.dtp.player" target="_blank" class="project project-tile">
-                <img class="project-image" src="https://github.com/Daniel-TheProgrammer" alt="project" />
+                <img class="project-image" src="data:image/png;base64,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" alt="project" />
                 <p class="project-title">
                     <span class="code">&lt;</span> DTP Video Player
                     <span class="code">&#47;&gt;</span>
@@ -138,9 +138,9 @@
             </a>
 
             <a href="https://github.com/Daniel-TheProgrammer/DTP_VueJS_Landing-Page.git" target="_blank" class="project project-tile">
-                <img class="project-image" src="https://thumbs.dreamstime.com/b/programmer-working-his-computer-programmer-working-computer-programming-coding-developing-concept-wih-css-c-python-java-155503907.jpg" alt="project" />
+                <img class="project-image" src="https://laravelnews.imgix.net/images/phplogo.jpg?ixlib=php-3.3.1" alt="project" />
                 <p class="project-title">
-                    <span class="code">&lt;</span> Python Doc
+                    <span class="code">&lt;</span> PHP
                     <span class="code">&#47;&gt;</span>
                 </p>
             </a>

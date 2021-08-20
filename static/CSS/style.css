@@ -46,7 +46,7 @@ body {
     justify-content: flex-end;
     z-index: 10;
     overflow: hidden;
-    background-color: #004c53;
+    background-color: hsl(185, 83%, 50%);
     position: fixed;
     /* Set the navbar to fixed position */
     top: 0;
@@ -61,14 +61,14 @@ body {
 .navbar a {
     float: right;
     display: block;
-    color: #f2f2f2;
+    color: #a72a2a;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .navbar a:hover {
-    background: #ddd;
+    background: rgb(17, 180, 112);
     color: black;
 }
 
@@ -98,7 +98,7 @@ body {
     /* background-image: linear-gradient(to right, rgb(227, 93, 91), rgb(229, 57, 53)); */
     /* background-image: linear-gradient(to right, rgb(237, 33, 58), rgb(147, 41, 30)); */
     /* background-color: #ca4f3f; */
-    background-color: #f85f4d;
+    background-color: rgb(97, 97, 228);
 }
 
 .title {
@@ -201,7 +201,7 @@ p {
 .projects-section {
     text-align: center;
     padding: 10rem 2rem;
-    background-color: #f85f4d;
+    background-color: #4d9df8;
 }
 
 .projects-section-header {
@@ -290,7 +290,7 @@ p {
 
 .btn-show-all:hover {
     background: white;
-    color: #f85f4d;
+    color: #4df8f8;
 }
 
 .btn-show-all:hover>i {
@@ -307,7 +307,7 @@ p {
 /* hr */
 
 hr {
-    border: dotted #f85f4d 6px;
+    border: dotted #4df8f8 6px;
     border-bottom: none;
     width: 4%;
     margin: 100px auto;
@@ -396,7 +396,7 @@ hr {
 /* Start of bottom-site style */
 
 .bottom-site {
-    background-image: linear-gradient(to right, rgb(227, 93, 91), rgb(229, 57, 53));
+    background-image: linear-gradient(to right, rgb(66, 173, 235), rgb(229, 57, 53));
     line-height: 2;
     margin: 20px auto 0 auto;
     text-align: left;
