@@ -61,7 +61,7 @@ body {
 .navbar a {
     float: right;
     display: block;
-    color: #a72a2a;
+    color: #14be94;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -396,7 +396,7 @@ hr {
 /* Start of bottom-site style */
 
 .bottom-site {
-    background-image: linear-gradient(to right, rgb(66, 173, 235), rgb(229, 57, 53));
+    background-image: linear-gradient(to right, rgb(66, 173, 235), rgb(152, 226, 222));
     line-height: 2;
     margin: 20px auto 0 auto;
     text-align: left;
